@@ -1,0 +1,49 @@
+body {
+  background-color: #EBEBEB;
+}
+
+.side-bar {
+  background-color: #3C2888;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.space {
+  display: grid;
+  grid-template-columns: 10px 10px 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 133px 133px 130px;
+  grid-gap: 10px;
+}
+
+.rez {
+column-width: 600px;
+}
+
+.text {
+  font-family: Rockwell;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn-primary {
+  background-color: #3C2888;
+}
+
+.analyse{
+  position: absolute;
+  left: 1294px;
+  top: 290px;
+
+}
+.text_box_input {
+  width: 300px;
+}
